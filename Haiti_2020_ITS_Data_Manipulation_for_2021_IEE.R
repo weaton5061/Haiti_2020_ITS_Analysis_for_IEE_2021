@@ -52,8 +52,8 @@ hti_20_invalid <-read.csv("PNCM_Données partielles de 2020.csv")
 hti_19 <-read.csv("2012_2019 OU Long 2020 06 12.csv")
 
 # Bring n=55 health facilities to map  ------------------------------------
-# hf_55_gps <- read.csv("/Volumes/Samsung T5/LACIE FAT32/Research Projects/Eisele Projects/Haiti/Will Data Analysis/ITS Analysis Dataset/haiti2GPS_cx.csv")
-hf_55_gps <-read.csv("/Users/willeaton/Box/Modeling for Malaria Zero/ITS Analysis/Data/E Drive 12-5-19/ITS Analysis Dataset/haiti2GPS_cx.csv")
+
+hf_55_gps <-read.csv("haiti2GPS_cx.csv")
 
 # Bring in haiti_prelim_2015_2018_9_24_19 dataset for population data then create growth rate 
 # * REVISIT THIS - CONSIDER Multiple population sources for sensitivity analysis
