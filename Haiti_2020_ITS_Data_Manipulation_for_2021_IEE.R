@@ -55,11 +55,20 @@ hti_19 <-read.csv("2012_2019 OU Long 2020 06 12.csv")
 
 hf_55_gps <-read.csv("haiti2GPS_cx.csv")
 
+## LEFT OFF HERE @ 1543 HRS @ BALLARD LIBRARY
+# TASKS: 1) INSPECT DATA SETS
+# 2) IMPORT REMAINING
+# 3) OBTAIN ENVIRONMENTAL RASTER FILES
+# 4) CROP AND CREATE ZONAL STATS
+# 5) TWEAK NEW VARIABLES - POPULATION - MONTHLY?, ETC.
+
 # Bring in haiti_prelim_2015_2018_9_24_19 dataset for population data then create growth rate 
 # * REVISIT THIS - CONSIDER Multiple population sources for sensitivity analysis
+
 haiti_prelim_2015_2018_9_24_19 <- read.csv("/Users/willeaton/Box/Modeling for Malaria Zero/ITS Analysis/Data/Final Dataset/haiti_prelim_2015_2018_9_24_19.csv")
 
 # Check for missing variables ---------------------------------------------
+
 table(hti_19$ADM1Name, useNA = "always")
 # Artibonite     Centre Grand'Anse     Nippes       Nord   Nord'Est Nord'Ouest      Ouest        Sud    Sud'Est       <NA> 
 #     9844       3928       4820       3036       7038       4022       7619      17971       5505       4404          0 
